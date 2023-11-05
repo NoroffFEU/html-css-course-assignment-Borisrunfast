@@ -1,0 +1,40 @@
+.filter {
+    width: 90%;
+    margin: 1rem auto 0;
+}
+
+.filter div {
+    margin-bottom: .5rem;
+}
+.quality-div input {
+    margin-right: .2rem;
+}
+
+.form-checkbox-div {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-checkbox-div label { 
+    display: block;
+} 
+.form-checkbox-div input {
+    margin-right: .2rem;
+}
+
+button {
+    outline: none;
+    border: none;
+    display: block;
+    margin: 1rem 1rem 1rem auto;
+    padding: .2rem 2rem;
+    background-color: green;
+    border-radius: 3px;
+}
+
+#year, #year > * {
+    color: black;
+}

@@ -1,0 +1,36 @@
+.top-movie-list {
+    width: 90%;
+    height: max-content;
+    max-height: 400px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    overflow-x: scroll;
+
+}
+
+.scroll {
+    width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.scroll div {
+    width: 26vw;
+    max-width: 230px;
+    border-radius: 3px;
+    background-color: black;
+    box-shadow: 1px 1px 10px #000000;
+    text-align: center;
+}
+
+.scroll div img {
+    width: 100%;
+}
+
+.scroll div h5 {
+    text-overflow: ellipsis;
+    font-size: 1rem;
+}
+

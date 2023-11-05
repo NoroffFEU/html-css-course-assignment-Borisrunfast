@@ -1,0 +1,32 @@
+
+.article-decor {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    align-items: start;
+}
+
+.welcome-h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.article-decor h2 {
+    color: #9747FF;
+    margin-bottom: 1rem;
+}
+
+.article-decor p {
+    margin-bottom: .5rem;
+}
+
+.article-decor a {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: .5rem 1.3rem;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--main-green);
+    display: block;
+    margin: 1rem auto;
+}

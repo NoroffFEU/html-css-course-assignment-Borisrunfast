@@ -1,0 +1,40 @@
+.hero-div {
+    width: 90%;
+}
+
+.hero-div h2 {
+    margin-bottom: 1rem;
+}
+
+.hero-div p {
+    text-align: center;
+}
+
+.hero-btn {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: .5rem 1.3rem;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--main-green);
+    width: 160px;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+}
+
+.section-info {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    gap: .5rem;
+}
+
+.section-info article {
+    width: 50%;
+}
+
+.section-info p {
+    display: none;
+}

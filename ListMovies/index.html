@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Eyes</title>
+    <link href="../index.css" rel="stylesheet" />
+    <link href="../nav.css" rel="stylesheet" />
+    <link href="./hero.css" rel="stylesheet" />
+    <link href="./movie-list.css" rel="stylesheet" />
+    <link href="./filter.css" rel="stylesheet" />
+    <link href="../footer.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header-background">
+        <nav class="navigation">
+            <div class="logo-search-flex">
+                <img class="nav-logo" src="../images/Logo.png"/>
+                <search>
+                    <form class="form-nav-search" action="./search">
+                        <input class="nav-search" type="text">
+                        <img class="nav-search-icon" src="../images/material-symbols_search.png"/>
+                    </form>
+                </search>
+            </div>
+            <details class="hide-desktop">
+                <summary><img class="nav-menu" src="../images/ion_menu.png"/></summary>
+                <ul class="nav-items">
+                    <li><a href='../index.html'>Home</a></li>
+                    <li><a href='./index.html'>Movies</a></li>
+                    <li><a href='../About/index.html'>About</a></li>
+                    <li><a href="../Checkout/index.html">Cart</a></li>
+                    <li><a href='../Contact/index.html'>Help</a></li>
+                </ul>
+            </details>
+
+            <ul class="show-desktop">
+                <li><a href='../index.html'>Home</a></li>
+                <li><a href='./index.html'>Movies</a></li>
+                <li><a href='../About/index.html'>About</a></li>
+                <li><a href="../Checkout/index.html">Cart</a></li>
+                <li><a href='../Contact/index.html'>Help</a></li>
+            </ul>
+        </nav>
+
+
+        <article class="hero">
+            <div class="hero-top-text">
+                <p>Top #1</p>
+                <h1>All Quiet on The Western Front</h1>
+            </div>
+            <div class="hero-side flex-hide-desktop">
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+            </div>
+            <div class="hero-side flex-show-desktop">
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+                <img src="../images/ball.svg"/>
+            </div>
+            <h3 class="hero-paragraph">A young German soldier's terrifying experiences and distress on the western front during World War I</h3>
+            <div class="hero-bottom flex-preset-x">
+                <div class="flex-preset-x">
+                    <span class="movie-rating"><p>7.8</p></span>
+                    <p>$39.99</p>
+
+                </div>
+                <h2 class="hide-desktop">4K</h2>
+            </div>
+            <h2 class="desktop-4k">4K</h2>
+        </article>
+    </header>
+    <main>
+        
+
+    <form class="filter" action="./search">
+        <div><h3>Filter</h3><img/></div>
+        <label for="quality">Quality:</label>
+        <div class="quality-div">
+            <label id="hd"><input type="checkbox" value="hd"/>HD</label>
+            <label id="4k"><input type="checkbox" value="4k"/>4K</label>
+            <label id="8k"><input type="checkbox" value="8k"/>8K</label>
+        </div>
+        <div>
+            <label for="year">Year:</label>
+            <select id="year">
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+        </div>
+
+        <label>Genre:</label>
+        <div class="form-checkbox-div">
+            <div>
+                <label for="action"> <input type="checkbox" id="action" value="action" />action</label>
+                <label for="adventure"><input type="checkbox" id="adventure" value="adventure" />adventure</label>
+                <label for="animation"><input type="checkbox" id="animation" value="animation" />animation</label>
+                <label for="biography"><input type="checkbox" id="biography" value="biography" />biography</label>
+                <label for="comedy"><input type="checkbox" id="comedy" value="comedy" />comedy</label>
+            </div>
+            <div>
+                <label for="crime"><input type="checkbox" id="crime" value="crime" />crime</label>
+                <label for="documentary"><input type="checkbox" id="documentary" value="documentary" />documentary</label>
+                <label for="drama"><input type="checkbox" id="drama" value="drama" />drama</label>
+                <label for="family"><input type="checkbox" id="family" value="family" />family</label>
+                <label for="fantasy"><input type="checkbox" id="fantasy" value="fantasy" />fantasy</label>
+            </div> 
+            <div>
+                <label for="history"><input type="checkbox" id="history" value="history" />history</label>
+                <label for="horror"><input type="checkbox" id="horror" value="horror" />horror</label>
+                <label for="music"><input type="checkbox" id="music" value="music" />music</label>
+                <label for="mystery"><input type="checkbox" id="mystery" value="mystery" />mystery</label>
+                <label for="romance"><input type="checkbox" id="romance" value="romance" />romance</label>
+            </div>
+            <div>
+                <label for="sci-fi"><input type="checkbox" id="sci-fi" value="sci-fi" />sci-fi</label>
+                <label for="thriller"><input type="checkbox" id="thriller" value="thriller" />thriller</label>
+                <label for="war"><input type="checkbox" id="war" value="war" />war</label>
+            </div>
+        </div>
+        <button type="submit">Filter</button>
+    </form>
+
+    <article>
+        <section class="movie-section">
+            <h2>Trending</h2>
+            <div class="scroll-display">
+                <div class="scroll">
+                <a href="../Checkout/index.html">
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover1.jpeg"/>
+                        <h4>Fast & Furious Hobbs & Shaw</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                </a>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover2.jpeg"/>
+                        <h4>Gozzila King of The Monsters</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover3.jpeg"/>
+                        <h4>Once Upon a Time... in Hollywood</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover4.jpeg"/>
+                        <h4>Scream</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2>New</h2>
+            <div class="scroll-display">
+                <div class="scroll">
+                <a href="../Checkout/index.html">
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover1.jpeg"/>
+                        <h4>Fast & Furious Hobbs & Shaw</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                </a>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover2.jpeg"/>
+                        <h4>Gozzila King of The Monsters</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover3.jpeg"/>
+                        <h4>Once Upon a Time... in Hollywood</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover4.jpeg"/>
+                        <h4>Scream</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Coming soon</h2>
+            <div class="scroll-display">
+                <div class="scroll">
+                <a href="../Checkout/index.html">
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover1.jpeg"/>
+                        <h4>Fast & Furious Hobbs & Shaw</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                </a>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover2.jpeg"/>
+                        <h4>Gozzila King of The Monsters</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover3.jpeg"/>
+                        <h4>Once Upon a Time... in Hollywood</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover4.jpeg"/>
+                        <h4>Scream</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="../movie-img/Square_Eyes_Cover5.jpeg"/>
+                        <h4>Sweetheart</h4>
+                        <div class="details">
+                            <span class="movie-rating"><p>7.7</p></span>
+                            <p>$35.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    </main>
+    <footer class="footer">
+        <div class="f-main">
+            <ul class="f-nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./index.html">Movies</a></li>
+                <li><a href="../About/index.html">About</a></li>
+                <li><a href="../Checkout/index.html">Cart</a></li>
+                <li><a href="../Contact/index.html">Help</a></li>
+            </ul>
+            <p>
+                Square Eyes lets you buy and
+                download any movie of your 
+                choosing and view it any time
+            </p>
+            <p class="copyright">©SquareEyes</p>
+        </div>
+        <div class="f-socials">
+            <a href="#"><img src="../images/ri_twitter-x-fill.svg"/></a>
+            <a href="#"><img src="../images/mdi_youtube.svg"/></a>
+            <a href="#"><img src="../images/mdi_instagram.svg"/></a>
+        </div>
+    </footer>
+</body>
+</html>

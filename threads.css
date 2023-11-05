@@ -1,0 +1,65 @@
+.thread {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 90%;
+    height: fit-content;
+    display: grid;
+    grid-template: 
+    'movie thread thread' 1fr / 1fr 1fr 1fr;
+    border-radius: 3px;
+    /*////////////////////////////////////////////////////////////////*/
+    margin-bottom: 4rem;
+}
+.movie-details {
+    grid-area: movie;
+    background-color: #58328A;
+    padding: 1rem;
+    text-align: center;
+}
+.movie-details img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 135px;
+}
+.movie-details h3 {
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+.thread-details {
+    padding: 0.5rem;
+    grid-area: thread;
+    background-image: radial-gradient(#ffffff00, #0000009f), url(./images/c835ee26293f6dc0b92c9904e6d208a6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.thread-movie-rating {
+    background-image: url(./images/star.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem; height: 2rem;
+    font-weight: 900;
+}
+.thread-details-top {
+    display: flex;
+    justify-content: space-between;
+}
+.thread-details div {
+    display: grid;
+}
+
+.thread-details img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 3px;
+}
+
+.thread-movie-price {
+    margin-left: auto;
+    font-weight: 900;
+}

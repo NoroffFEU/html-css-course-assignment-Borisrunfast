@@ -1,15 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Eyes</title>
+    <link href="./index.css" rel="stylesheet" />
+    <link href="./nav.css" rel="stylesheet" />
+    <link href="./hero.css" rel="stylesheet" />
+    <link href="./hit-movies.css" rel="stylesheet" />
+    <link href="./movie-list.css" rel="stylesheet" />
+    <link href="./threads.css" rel="stylesheet" />
+    <link href="./footer.css" rel="stylesheet" />
 </head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="logo-search-flex">
+                <img class="nav-logo" src="./images/Logo.png"/>
+
+                <search>
+                    <form class="form-nav-search" action="./search">
+                        <input class="nav-search" type="text">
+                        <img class="nav-search-icon" src="./images/material-symbols_search.png"/>
+                    </form>
+                </search>
+            </div>
+            
+            <details class="hide-desktop">
+                <summary><img class="nav-menu" src="./images/ion_menu.png"/></summary>
+                <ul class="nav-items">
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='./ListMovies/index.html'>Movies</a></li>
+                    <li><a href='./About/index.html'>About</a></li>
+                    <li><a href="../Checkout/index.html">Cart</a></li>
+                    <li><a href='./Contact/index.html'>Help</a></li>
+                </ul>
+            </details>
+
+            <ul class="show-desktop">
+                <li><a href='#'>Home</a></li>
+                <li><a href='./ListMovies/index.html'>Movies</a></li>
+                <li><a href='./About/index.html'>About</a></li>
+                <li><a href="../Checkout/index.html">Cart</a></li>
+                <li><a href='./Contact/index.html'>Help</a></li>
+            </ul>
+            
+        </nav>
+
+        <hero>
+            <div class="hero-div article-decor">
+                <h2>Connecting Film-Lovers</h2>
+                <p>Fostering a Worldwide Community of Cinematic Passion and Appreciation
+                    Find The Greatest Movies And More</p>
+            </div>
+            <a href="./ListMovies/index.html" class="hero-btn">EXPLORE</a>
+        </hero>
+
+        <section class="section-info">
+            <article class="article-decor">
+                <h2>ABOUT</h2>
+                <p>Our User-friendly interface makes finding films a breeze
+                You'll spend less time searching and more time enjoying</p>
+            </article>
+            <article class="article-decor">
+                <h2>CONTACT</h2>
+                <p>Encountering a bug or technical issue? Let us know,
+                 and we'll work our magic to resolve it.</p>
+            </article>
+        </section>
+    </header>
+
+    <main>
+        <article class="article-hit-movies">
+            <section class="section-movies">
+                <figure class="figure-hit-movie">
+
+                    <div class="hit-movie-grid-left hit-movie-grid-flex">
+                        <span class="hit-movie-rating"><h4>7.7</h4></span>
+                        <a href="../Checkout/index.html">
+                            <img src="./images/Square_Eyes_Cover8.png" alt="toy story 4 movie cover"/>
+                        </a>
+                    </div>
+
+                    <div class="hit-movie-grid-mid hit-movie-grid-flex">
+                        <h3 >Toy Story 4</h3>
+                        <p>Toys become alive? they are alive What is going on???</p>
+                    </div>
+
+                    <div class="hit-movie-grid-right hit-movie-grid-flex">
+                        <h4>35.99$</h4>
+                        <h4>4K</h4>
+                    </div>
+                    
+                </figure>
+                <div class="movie-background"></div>
+            </section>
+            <section>
+            <aside class="side-hit-movie">
+                <img src="./movie-img/Square_Eyes_Cover7.jpeg"/>
+                <a href="./Checkout/index.html">
+                    <div>
+                        <h4>The Batman</h4>
+                        <p>Batman is not the villan so maybe the joler is...</p>
+                        <div class="side-hit-bottom">
+                            <span class="side-hit-rating">
+                                <img src="./images/star.svg"/>
+                                <p>7.7</p>
+                            </span>
+                            <p>35.99$</p>
+                        </div>
+                    </div>
+                </a>
+            </aside>
+            <aside class="side-hit-movie">
+                <img src="./movie-img/Square_Eyes_Cover7.jpeg"/>
+                <a href="./Checkout/index.html">
+                    <div>
+                        <h4>The Batman</h4>
+                        <p>Batman is not the villan so maybe the joler is...</p>
+                        <div class="side-hit-bottom">
+                            <span class="side-hit-rating">
+                                <img src="./images/star.svg"/>
+                                <p>7.7</p>
+                            </span>
+                            <p>35.99$</p>
+                        </div>
+                    </div>
+                </a>
+            </aside>
+        </article>
+        <section class="top-movie-list">
+            <div class="scroll">
+                <a href="./Checkout/index.html">
+                    <div>
+                        <img src="./images/Square_Eyes_Cover8.png" alt="toy story 4 movie cover"/>
+                        <h5>Toy Story 4</h5>
+                    </div>
+                </a>
+                <a href="./Checkout/index.html">
+                    <div>
+                        <img src="./images/Square_Eyes_Cover8.png" alt="toy story 4 movie cover"/>
+                        <h5>Toy Story 4</h5>
+                    </div>
+                </a>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+                <div>
+                    <img src="./images/Square_Eyes_Cover8.png"/>
+                    <h5>Toy Story 4asdfasdfasdf</h5>
+                </div>
+            </div>
+        </section>
+        
+        <section class="thread">
+            <div class="movie-details">
+                <img src="./movie-img/Square_Eyes_Cover2.jpeg"  alt="Gozzila King of The Monsters movie cover"/>
+                <h3>Gozzila King of The Monsters</h3>
+            </div>
+            <div class="background-line"></div>
+            <div class="thread-details">
+                <span class="thread-details-top">
+                    <h2>Top Threads</h2>
+                    <span class="thread-movie-rating">
+                        <p>7.0</p>
+                    </span>
+                </span>
+                <div>
+                    <a href="./Checkout/index.html">
+                        <img src="./images/Screenshot 2023-10-31 145606.png" alt="image of a thread disscussion"/>
+                    </a>
+                    <p class="thread-movie-price">$14.99</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="thread">
+            <div class="movie-details">
+                <img src="./movie-img/Square_Eyes_Cover2.jpeg"  alt="Gozzila King of The Monsters movie cover"/>
+                <h3>Gozzila King of The Monsters</h3>
+            </div>
+            <div class="background-line"></div>
+            <div class="thread-details">
+                <span class="thread-details-top">
+                    <h2>New Threads</h2>
+                    <span class="thread-movie-rating">
+                        <p>7.0</p>
+                    </span>
+                </span>
+                <div>
+                    <a href="./Checkout/index.html">
+                        <img src="./images/Screenshot 2023-10-31 145606.png"  alt="image of a thread disscussion"/>
+                    </a>
+                    <p class="thread-movie-price">$14.99</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="f-main">
+            <ul class="f-nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./ListMovies/index.html">Movies</a></li>
+                <li><a href="./About/index.html">About</a></li>
+                <li><a href="./Checkout/index.html">Cart</a></li>
+                <li><a href="./Contact/index.html">Help</a></li>
+            </ul>
+            <p>
+                Square Eyes lets you buy and
+                download any movie of your 
+                choosing and view it any time
+            </p>
+            <p class="copyright">©SquareEyes</p>
+        </div>
+        <div class="f-socials">
+            <a href="#"><img src="./images/ri_twitter-x-fill.svg"/></a>
+            <a href="#"><img src="./images/mdi_youtube.svg"/></a>
+            <a href="#"><img src="./images/mdi_instagram.svg"/></a>
+        </div>
+    </footer>
+    
+
 </body>
 </html>

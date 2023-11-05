@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.f-main {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.f-nav {
+    width: 100%;
+    max-width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5rem auto;
+}
+
+.f-nav li a{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+
+.f-socials {
+    padding: 1rem;
+}
+
+.f-socials a{
+    width: max-content;
+    height: max-content;
+}
+
+.f-socials a img{
+    width: 100%;
+    max-width: 50px;
+    min-width: 25px;
+}
+

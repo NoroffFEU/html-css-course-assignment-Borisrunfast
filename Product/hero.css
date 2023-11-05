@@ -1,0 +1,53 @@
+.header-background {
+    background-image: linear-gradient( 170deg, rgba(88, 50, 138, 0.7), rgba(34, 20, 53, 0.7)), url(../images/c835ee26293f6dc0b92c9904e6d208a6.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.hero img {
+    border-radius: 3px;
+    width: 30%;
+    box-shadow: 1px 1px 10px #000000;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: .5rem;
+}
+
+.hero-details div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-buttons {
+    display:flex;
+    justify-content: end;
+    gap: .5rem;
+}
+
+.hero-buttons a {
+    padding: .5rem 2rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;;
+}
+
+.trailer-btn {
+    background-color: #9747FF;
+}
+.checkout-btn {
+    background-color: green;
+}
